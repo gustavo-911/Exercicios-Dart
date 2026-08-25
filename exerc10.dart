@@ -10,7 +10,6 @@ void main() {
   print('Digite o terceiro lado:');
   double lado3 = double.parse(stdin.readLineSync()!);
 
-  // Verifica se os lados podem formar um triângulo
   if (lado1 + lado2 > lado3 &&
       lado1 + lado3 > lado2 &&
       lado2 + lado3 > lado1) {

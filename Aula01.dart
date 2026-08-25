@@ -2,14 +2,14 @@
 
 void main() {
   print('Olá Galera!');
-  var nome = "Gregorio";
+  var nome = "Gustavo malvadeza 67";
   print(nome);
   print(nome.runtimeType);
   var ano_nasc = 1991;
   print(ano_nasc);
   print(ano_nasc.runtimeType);
 
-  String sobrenome = "Queiroz";
+  String sobrenome = "Silva";
   int idade = 2026 - ano_nasc;
   double altura = 1.69;
   print('Olá Galera, aqui é o Prof. ${nome} ${sobrenome}, tenho ${idade} anos e ${altura} de altura.');
